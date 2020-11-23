@@ -1,0 +1,76 @@
+section#header
+  position: relative
+  display: block
+  width: calc(100% - 2em)
+  padding: 0 1em
+  background-color: white
+  margin: 0
+
+  div#logo
+    position: absolute
+    top: 0
+    left: 1em
+
+  div#titre-site
+    color: #ae1919
+    text-align: right
+    font-weight: 600;
+    letter-spacing: 0.09em
+    word-spacing: 0.4em
+
+
+    div#header-sections
+      /* Cf. layout.css */
+
+
+@media(min-width:960px)
+  section#header
+    div#titre-site
+      width: 83%
+      padding: 2em 1em 2em 0.5em
+      font-size: 2em
+
+  section#content
+    width: 700px
+    margin-left: 25%
+
+
+@media(max-width:959px)
+  section#header
+    div#titre-site
+      width: calc(100% - 2.5em)
+      padding: 1em 2em 1em 0.5em
+      font-size: 2em
+
+  section#content
+    width: calc(100% - 2em)
+    margin: 1em 1em
+
+
+@media(max-width:500px)
+  section#header
+    div#logo img
+      width: 80%
+    div#titre-site
+      font-size: 20pt
+
+
+@media(max-width:399px)
+  section#header
+    div#header-sections
+      padding-bottom: 1em
+
+    div#header-sections a
+      display: block
+      text-align: center
+      padding-left: 2%
+      font-size: 1.2em
+
+
+@media(min-width:399px)
+  section#header
+    div#header-sections
+      padding-left: 15%
+      padding-bottom: 2em
+      a
+        display: inline-block

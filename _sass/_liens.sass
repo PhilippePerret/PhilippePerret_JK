@@ -1,0 +1,31 @@
+a, a.visited, a.linked, a.hover
+  color: #4e84a6
+  text-decoration: none
+
+/* Les liens pour rejoindre les sections */
+div#header-sections
+  a.regular
+    color: #4e84a6 !important
+    font-size: 1.2em
+    padding: 0.2em 0.5em
+    border-bottom: 2px solid transparent
+    text-align: center
+
+/* Quand on survole un lien principal */
+div#header-sections
+  a.regular
+    &:hover
+      border-bottom-color: #4e84a6
+      /* Le lien actif (i.e. la partie courante) */
+    &.active
+      background-color: #4e84a6
+      color: white
+
+nav
+  display: block
+  line-height: 1.6em
+  a
+    display: block
+    font-size: 1em
+  &.tdm-page
+    float: left

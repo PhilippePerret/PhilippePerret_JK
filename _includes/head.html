@@ -1,5 +1,19 @@
 <head>
   <meta charset="utf-8">
-  <title>{{site.title}}</title>
+  <title>
+    {{ site.title }}
+    {% if page.title %}
+      <span> | {{ page.title }}</span>
+    {% endif %}
+  </title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,500,600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <!-- Pour Disquus -->
+  <script src="https://philippe-perret.disqus.com/embed.js" data-timestamp="1606394807725"></script>
+<link rel="prefetch" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.2a0be1cac62547aa91037395a06bf8b3.css">
+<link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.ac3bde1f6afb3a5913b7d94c8f7efe0c.js">
+<link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.7ce8b2d11ecfa0aa9e0fdce994b52842.js">
+<link rel="prefetch" as="script" href="https://disqus.com/next/config.js">
+<script src="https://c.disquscdn.com/next/embed/alfie_v4.63f1ab6d6b9d5807dc0c94ef3fe0b851.js" async="" charset="UTF-8"></script>
+  <!-- /fin de pour disquus -->
 </head>

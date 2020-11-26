@@ -26,9 +26,19 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+urls:
+  icare: https://www.atelier-icare.net
+  concours: https://www.atelier-icare.net/concours
+  compte_perso_facebook: https://www.facebook.com/perret.phil
+  profil_amazon: https://www.amazon.fr/Philippe-Perret/e/B004MT18YW
+
 # Build settings
 # theme: minima
-plugins:
+# plugins:
+
+collections:
+  pages:
+    output: true
 
 sass:
   sass_dir: _sass

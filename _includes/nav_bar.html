@@ -1,19 +1,8 @@
-{%
-  assign liste_actives = ['/', '/contact', '/livres', '/films', '/tutoriels', '/articles']
-  assign liste_etats = []
-  for section in liste_actives
-    if page.path == section
-      liste_etats.push(' active')
-    else
-      liste_etats.push('')
-    endif
-  endif
-%}
 <nav>
-  <a href="/" class="regular{{ liste_etats[0] }}">À propos</a>
-  <a href="/contact" class="regular{{ liste_etats[1] }}">Contact</a>
-  <a href="/livres" class="regular{{ liste_etats[2] }}">Livres</a>
-  <a href="/films" class="regular{{ liste_etats[3] }}">Films</a>
-  <a href="/tutoriels" class="regular{{ liste_etats[4] }}">Tutoriels</a>
-  <a href="/blog" class="regular{{ liste_etats[5] }}">Articles</a>
+  <a href="/apropos" class="regular{% if page.path == 'index.md' %}active{% endif %}">À propos</a>
+  <a href="/contact" class="regular{% if page.path contains '_pages/contact' %} active{% endif %}">Contact</a>
+  <a href="/livres" class="regular{% if page.path contains '_pages/livres' %} active{% endif %}">Livres</a>
+  <a href="/films" class="regular{% if page.path contains '_pages/films' %} active{% endif %}">Films</a>
+  <a href="/tutoriels" class="regular{% if page.path contains '_pages/tutoriels' %} active{% endif %}">Tutoriels</a>
+  <a href="/articles" class="regular{% if page.path contains '_pages/articles' %} active{% endif %}">Articles</a>
 </nav>

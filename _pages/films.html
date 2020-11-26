@@ -1,0 +1,75 @@
+---
+permalink: /films
+title: Films
+layout: default
+---
+
+{% for catefilm in site.data.films %}
+
+  <div class="categorie-titre titre">{{ catefilm.titre }}</div>
+
+  {% for film in catefilm.items %}
+    <div class="film item regular">
+      <h2 class="no_margin_bottom">{{ film.titre }}</h2>
+      <div class="fleft imagefilm">
+        <img src="/img/films/{{ film.id }}.jpg" />
+
+        {% if film.legend_photo %}
+          <div class="tiny center mt1">({{ film.legend_photo }})</div>
+        {% endif %}
+
+      </div>
+      <table class="films" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr><td colspan="2">
+
+          {% if film.pitch %}
+            <div class="libelle">résumé</div><div>{{ film.pitch }}</div>
+          {% endif %}
+
+          {% if film.acteurs %}
+            <div class="libelle">avec</div><div>{{ film.acteurs }}</div>
+          {% endif %}
+
+        </td></tr>
+
+        {% if film.realisateur %}
+          <tr>
+            <td class="libelle">réalisation</td><td>{{ film.realisateur }}</td>
+          </tr>
+        {% endif %}
+
+        {% if film.auteurs %}
+          <tr>
+            <td class="libelle">scénario</td><td>{{ film.auteurs }}</td>
+          </tr>
+        {% endif %}
+
+        {% if film.production %}
+          <tr>
+            <td class="libelle">production</td><td>{{ film.production }}</td>
+          </tr>
+        {% endif %}
+
+        {% if film.musique %}
+          <tr>
+            <td class="libelle">musique</td><td>{{ film.musique }}</td>
+          </tr>
+        {% endif %}
+
+
+        {% if film.recompenses %}
+          <tr>
+            <td colspan="2">
+              <span class="libelle">récompenses</span> <span>{{ film.recompenses }}</span>
+            </td>
+          </tr>
+        {% endif %}
+  </table>
+</div>
+<div style="clear:both;height:1em;"></div>
+  {%- endfor -%}
+
+{% endfor %}

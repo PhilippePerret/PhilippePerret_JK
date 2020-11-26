@@ -1,12 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
-permalink: /
+permalink: /apropos
 ---
-<div class="fleft image-in-cadre" style="width:260px;">
-<img src="https://www.scenariopole.fr/img/philippeperret/home/profil.jpg" class="regular" alt="Photo de profil" /></div>
+<div class="fleft image-in-cadre" style="width:260px;" markdown="1">
+![Photo de Phil](https://www.scenariopole.fr/img/philippeperret/home/profil.jpg)
+</div>
 <span class="exergue">PHILIPPE PERRET</span> est romancier, scénariste, musicien, compositeur et pédagogue.
 
 Il débute sa carrière artistique dans la musique, principalement dans la variété, en qualité de musicien, chef d'orchestre, directeur artistique et arrangeur-orchestrateur. Premier Prix d'Analyse musicale, diplômé en Harmonie et en Contrepoint, Prix SACEM 1992, il réalise son premier disque à 21 ans, chez Barclay — un 45 tours !

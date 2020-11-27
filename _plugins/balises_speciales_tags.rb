@@ -45,22 +45,33 @@ module Jekyll
   # Pour les questions Checkup
   #   Balise '{% checkup <id string> <la question> %}'
   #
-  class CheckupTags < Liquid::Tag
+  class ImageTags < Liquid::Tag
     include TagsFacilitatorModule
-    class << self
-      def new_id
-        @last_id ||= 0
-        @last_id += 1
-      end #/ new_id
-    end #/<< self
     def initialize(tag_name, str, token)
       super
-      @input = str.strip
+      @input = str.strip.split(' ')
+      @path   = @input.shift
+      @class  = @input.shift
+      @legend = @input.join(' ')
+      @legend = nil if @legend == ""
     end
     def render(context)
-      CHECKUP_TAG % get_id_and_content_from_input(:question).merge(cb_id: "checkup-#{self.class.new_id}")
+      dossier_images = context.registers[:page]['dossier_images']
+      @path = @path.prepend("#{dossier_images}/") if dossier_images
+      template = if @legend.nil?
+                    IMAGE_SIMPLE_TAG
+                  else
+                    IMAGE_WITH_LEGEND_TAG
+                  end
+      template % {path: @path, class: @class, legend: @legend, alt: (@legend || "Image #{@path}")}
     end
-    CHECKUP_TAG = '<div class="checkup"><input id="%{cb_id}" type="checkbox" /><label for="%{cb_id}">%{question}</label></div>'
+    IMAGE_SIMPLE_TAG = '<img src="/img/%{path}" class="%{class}" alt="%{alt}" />'.freeze
+    IMAGE_WITH_LEGEND_TAG = <<-HTML.freeze
+<div class="image-in-cadre %{class}">
+<div class="image"><img src="/img/%{path}" /></div>
+<div class="legend"><span class="legend">%{legend}</span></div>
+</div>
+HTML
   end
 
   # Pour les mots technique
@@ -97,7 +108,6 @@ end
 
 Liquid::Template.register_tag('date', Jekyll::DateTags)
 Liquid::Template.register_tag('exergue', Jekyll::ExergueTags)
+Liquid::Template.register_tag('image', Jekyll::ImageTags)
 
-Liquid::Template.register_tag('tt', Jekyll::MotTechniqueTags)
 Liquid::Template.register_tag('personnage', Jekyll::PersonnageTags)
-Liquid::Template.register_tag('checkup', Jekyll::CheckupTags)

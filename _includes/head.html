@@ -1,10 +1,7 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {{ site.title }}
-    {% if page.title %}
-      <span> | {{ page.title }}</span>
-    {% endif %}
+    {{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}
   </title>
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,500,600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">

@@ -40,6 +40,8 @@ urls:
 collections:
   pages:
     output: true
+  articles:
+    output: true
 
 sass:
   sass_dir: _sass

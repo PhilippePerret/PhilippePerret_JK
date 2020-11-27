@@ -1,0 +1,11 @@
+---
+title: Articles
+layout: default
+permalink: /billets
+---
+<p class="hidden">Tous articles et les coups d'humeur</p>
+
+{%- for billet in site.articles -%}
+  {{ billet.title }}
+  {{ billet.excerpt }}
+{%- endfor -%}

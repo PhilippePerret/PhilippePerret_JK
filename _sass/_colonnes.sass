@@ -1,0 +1,43 @@
+div.colonnes3
+  display: grid
+  grid-template-columns: 30% 5% 30% 5% 30%
+  grid-template-rows: auto
+  width: 99%
+
+div.colonnes2
+  display: grid
+  grid-template-columns: 45% 10% 45%
+  grid-template-rows: auto
+  width: 100%
+
+div.colonnes3 div.col1,
+div.colonnes3 div.col2,
+div.colonnes3 div.col3,
+div.colonnes2 div.col1,
+div.colonnes2 div.col2
+  grid-row: 1
+
+div.colonnes3 div.col1,
+div.colonnes2 div.col1
+  grid-column: 1
+div.colonnes3 div.col2,
+div.colonnes2 div.col2
+  grid-column: 3
+
+div.colonnes3 div.col3
+  grid-column: 5
+
+.pct25
+  width: 24%!important
+  border: 0
+  padding: 0
+
+.pct20
+  width: 19.5%!important
+  border: 0
+  padding: 0
+
+.pct33
+  width: 32%!important
+  border: 0
+  padding: 0

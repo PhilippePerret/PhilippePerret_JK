@@ -1,0 +1,56 @@
+---
+permalink: /livres
+title: Livres
+layout: default
+---
+<p class="hidden">Liste des livres que j'ai écrits.</p>
+
+
+{% for catelivres in site.data.livres %}
+
+  {% if catelivres.afficher == false %}
+    {% continue %}
+  {% endif %}
+
+  <div class="categorie-titre titre">{{ catelivres.titre }}</div>
+
+  {% for livre in catelivres.items %}
+
+
+  <div class="livre item regular">
+
+    <h2 class="no_margin_bottom">
+      {{ livre.titre }}
+    </h2>
+
+    <div class="item-infos">
+      <span class="item-rubrique exergue">LIVRES</span>
+      <span> • </span>
+      <span class="item-date"><span class="date">{{ livre.date }}</span></span>
+    </div>
+
+    <div class="resume">
+      <div class="fright image-livre">
+        <img class="regular" src="/img/livres/{{ livre.id }}.{% if livre.photo_ext %}{{ livre.photo_ext }}{% else %}jpg{% endif %}" alt="Couverture du livre {{ livre.titre }}" />
+      </div>
+      {{ livre.resume }}
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="mt2 right">
+        {% if livre.blog %}
+          <a href="{{ livre.blog }}" class="main-button w160">détails</a>
+        {% endif %}
+        {% if livre.link %}
+          <a href="{{ livre.link }}" class="main-button w160" target="_blank">commander</a>
+        {% endif %}
+    </div>
+
+  </div>
+
+
+
+  {% endfor %}
+
+{% endfor %}

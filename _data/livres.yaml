@@ -1,0 +1,86 @@
+- romans_edited:
+  titre: Romans (à compte d'éditeur)
+  items:
+  - id: mortvivant
+    titre: mort@vivant
+    date: 12 octobre 2003
+    state: 5
+    resume: Après avoir découvert la mort de son mentor B. Ackerman, patron de la
+      SSII — Société de Service et d'Ingénierie Informatique — pour laquelle il travaille,
+      Alain Esquerre se plonge dans une enquête en marge de la police qui va lui permettre
+      de  remonter la chaine démoniaque qui a conduit au meurtre de toute la famille
+      de son génial collègue.
+    link: https://www.amazon.fr/Mort-vivant-Philippe-Perret/dp/2843372437
+    isbn: 2-84337-243-7
+    blog: article?categorie=mortvivant
+  - id: cloaca
+    titre: Cloaca Maxima
+    state: 5
+    blog: article?categorie=cloaca
+    isbn: 979-10-90461-14-7
+    date: 12 novembre 2018
+    resume: |
+      Suite à la découverte de mystérieux cadavres dans les égouts de Paris
+      — la Cloaca Maxima de la Rome antique —, Nathalie, employée à la mairie, doit
+      accepter de devenir la femme de l’art de la police, la conseillère technique
+      d’une enquête qui s’avère, plus que toute autre, longue et pénible. Mais la
+      jeune femme est à mille lieues d'imaginer, lorsque cette mission lui est imposée
+      par son père, grand patron du réseau d’assai­nis­sement parisien, que cette
+      descente aux enfers entrainera le bou­le­ver­se­ment de son existence, la remise
+      en question complète de ses valeurs et des vérités auxquelles elle était attachée.
+    link: http://encresdesiagne.fr/index.php?id_product=24&id_product_attribute=0&rewrite=cloaca-maxima&controller=product
+- ouvrages_pedagogie:
+  titre: Ouvrage pédagogiques
+  items:
+  - id: srps
+    titre: Savoir rédiger et présenter son scénario
+    isbn: 979-10-90461-05-5
+    photo_ext: png
+    state: 3
+    date: 12 juin 2016
+    resume: |
+      Ouvrage pédagogique sur la rédaction et la présentation de la continuité dialoguée
+      d'un film, plébiscité dès sa sortie en 1998 et toujours ré-édité aujourd'hui.
+      Préface de Yves Lavancier.
+    link: http://encresdesiagne.fr/index.php?id_product=32&id_product_attribute=0&rewrite=savoir-rediger-et-presenter-son-scenario&controller=product
+    blog: null
+  - id: creer-personnages-inoubliables
+    titre: Créer des personnages inoubliables
+    date: 12 février 1999
+    state: 5
+    resume: |
+      TRADUCTION de l'ouvrage « Creating Inforgettable Characters » de <a href="https://fr.wikipedia.org/wiki/Linda_Seger" target="_blank">LINDA
+      SEGER</a> pour les <a href="https://www.dixit.fr" target="_blank">éditions DIXIT</a>.
+    link: https://www.dixit.fr/boutique-detail-livre-creer-des-personnages-inoubliables-par-linda-seger-415-0-1.html
+    blog:
+- romans_publishing:
+  titre: Romans en cours de publication
+  afficher: true
+  items:
+    - id: pss-amour-fou
+      titre: Passé sous silence – Un amour fou
+      date: 12 décembre 2019
+      state: 5
+      resume: null
+      link: null
+- romans_search_editors:
+  titre: Romans en recherche d'éditeur
+  afficher: true
+  items:
+    - id: le-parc
+      titre: Le Parc
+
+- romans_en_cours:
+  titre: Romans en cours d'écriture
+  items:
+    - id: digest-md5
+      titre: Digest/Md5
+    - id: pss-faiseuse-anges
+      titre: Passé sous silence — La Faiseuse d’anges
+    - id: tueuse-verte
+      titre: Tueuses vertes (titre de travail)
+
+- romans_en_projet:
+  titre: Romans en projet
+  afficher: false
+  items: []

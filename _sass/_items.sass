@@ -1,0 +1,45 @@
+div.categorie
+  margin-top: 3em
+
+h1 + div.categorie
+  margin-top: 0 !important
+
+div.categorie-titre
+  margin-bottom: 2em
+  font-size: 2em
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif
+  letter-spacing: 2px
+
+
+div.item-infos, div.item-infos *
+  font-size: 0.94em // attention, se démultiplie à cause du '*'
+
+div.categorie-item
+  margin: 2em 0
+  div.cate-item-photo
+    text-align: center
+    img
+      width: 100%
+
+  div.cate-item-infos
+    span.cate-item-infos-rubrique
+      font-variant: small-caps
+      font-weight: 500
+      /* TODO SUPPRIMER QUAND IL Y AURA UN LIEN */
+      color: #4e84a6
+
+  div.cate-item-titre
+    font-weight: 500
+    color: #ae1919
+    font-size: 1.6em
+    margin: 0.9em 0
+
+
+/* Un "item" donc une page, dans un listing d'éléments */
+div.item
+  margin-bottom: 7em
+  h3
+    font-size: 1.4em
+    font-variant: small-caps
+  div.tools
+    margin-top: 2em

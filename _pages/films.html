@@ -3,6 +3,7 @@ permalink: /films
 title: Films
 layout: default
 ---
+<p class="hidden">Tous les films que j'ai écrit, vendus ou réalisés.</p>
 
 {% for catefilm in site.data.films %}
 
@@ -19,21 +20,30 @@ layout: default
         {% endif %}
 
       </div>
-      <table class="films" cellpadding="0" cellspacing="0">
+      <table class="film" cellpadding="0" cellspacing="12">
         <tr>
           <td colspan="2">&nbsp;</td>
         </tr>
-        <tr><td colspan="2">
 
-          {% if film.pitch %}
-            <div class="libelle">résumé</div><div>{{ film.pitch }}</div>
-          {% endif %}
+        {% if film.recompenses %}
+          <tr>
+            <td class="libelle">récompenses</td><td>{{ film.recompenses }}</td>
+          </tr>
+        {% endif %}
 
-          {% if film.acteurs %}
-            <div class="libelle">avec</div><div>{{ film.acteurs }}</div>
-          {% endif %}
+        {% if film.pitch %}
+          <tr>
+            <td class="libelle">résumé</td><td>{{ film.pitch }}</td>
+          </tr>
+        {% endif %}
 
-        </td></tr>
+
+        {% if film.acteurs %}
+          <tr>
+            <td class="libelle">avec</td><td>{{ film.acteurs }}</td>
+          </tr>
+        {% endif %}
+
 
         {% if film.realisateur %}
           <tr>
@@ -59,17 +69,9 @@ layout: default
           </tr>
         {% endif %}
 
-
-        {% if film.recompenses %}
-          <tr>
-            <td colspan="2">
-              <span class="libelle">récompenses</span> <span>{{ film.recompenses }}</span>
-            </td>
-          </tr>
-        {% endif %}
   </table>
 </div>
 <div style="clear:both;height:1em;"></div>
-  {%- endfor -%}
+  {% endfor %}
 
 {% endfor %}

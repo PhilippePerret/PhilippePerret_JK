@@ -26,12 +26,28 @@ layout: default
     <div class="item-infos">
       <span class="item-rubrique exergue">LIVRES</span>
       <span> • </span>
-      <span class="item-date"><span class="date">{{ livre.date }}</span></span>
+      <span class="item-date">
+        <span class="date">
+        {%- if livre.date -%}{{ livre.date }}{%- else -%}À venir{%- endif -%}</span>
+      </span>
     </div>
+
+    {%- if livre.editeur -%}
+      <div class="item-infos">
+        <span class="exergue">ÉDITEUR</span>
+        <span> • </span>
+        <span class="edteur">{{ livre.editeur }}</span>
+      </div>
+    {%- endif -%}
 
     <div class="resume">
       <div class="fright image-livre">
-        <img class="regular" src="/img/livres/{{ livre.id }}.{% if livre.photo_ext %}{{ livre.photo_ext }}{% else %}jpg{% endif %}" alt="Couverture du livre {{ livre.titre }}" />
+        {%- if livre.no_photo -%}
+          {%- assign photo = 'no_photo' -%}
+        {%- else -%}
+          {%- assign photo = livre.id -%}
+        {%- endif -%}
+        <img class="regular" src="/img/livres/{{ photo }}.{% if livre.photo_ext %}{{ livre.photo_ext }}{% else %}jpg{% endif %}" alt="Couverture du livre {{ livre.titre }}" />
       </div>
       {{ livre.resume }}
     </div>

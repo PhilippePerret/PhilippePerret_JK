@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /apropos
+permalink: /
 ---
 <div class="fleft image-in-cadre" style="width:260px;" markdown="1">
 ![Photo de Phil](https://www.scenariopole.fr/img/philippeperret/home/profil.jpg)

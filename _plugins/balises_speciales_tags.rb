@@ -100,7 +100,6 @@ HTML
   class YouTubeTags < Liquid::Tag
     def initialize(tag_name, str, token)
       super
-      puts "input : #{str.inspect}"
       @input = str.strip.split(' ')
       @youtube_id = @input.shift
       @class = @input.shift
@@ -109,20 +108,29 @@ HTML
       @legend = nil if @legend == ""
     end
     def render(context)
-      puts "@youtube_id dans render : #{@youtube_id.inspect}"
+      # puts "@youtube_id dans render : #{@youtube_id.inspect}"
       div = FRAME_YOUTUBE % {yt_id: @youtube_id, class: @class}
       div = FRAME_YOUTUBE_WITH_LEGEND % {yt_iframe: div, legend: @legend} if @legend
       return div
     end
 # src="https://www.youtube-nocookie.com/embed/%{youtube_id}?wmode=transparent&amp;vq=hd1080"
+# FRAME_YOUTUBE = <<-HTML
+# <div class="div-youtube %{class}">
+#   <iframe
+#     class="youtube-container"
+#     src="https://www.youtube-nocookie.com/embed/%{yt_id}?wmode=transparent&amp;vq=hd1080"
+#     frameborder="0"
+#     allowfullscreen="true">
+#   </iframe>
+# </div>
+# HTML
 FRAME_YOUTUBE = <<-HTML
 <div class="div-youtube %{class}">
-  <iframe
-    class="youtube-container"
-    src="https://www.youtube-nocookie.com/embed/%{yt_id}?wmode=transparent&amp;vq=hd1080"
-    frameborder="0"
-    allowfullscreen="true">
-  </iframe>
+<iframe
+  src="https://www.youtube.com/embed/%{yt_id}"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
 </div>
 HTML
 

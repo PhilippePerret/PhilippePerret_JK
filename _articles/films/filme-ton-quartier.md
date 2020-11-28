@@ -211,7 +211,7 @@ L’histoire de “ma LETTRE d’un QUARTIER de FRANCE” s’achève ici pour l
 * {% date Samedi 15 décembre 2018 %} — [article sur le passage du film](http://blog.festivalfilmeduc.net/2018/12/ma-lettre-dun-quartier-de-france/) au 14e festival international du film d'éducation d'Évreux.
 * {% date Dimanche 16 décembre 2018, 13h05 %} — diffusion du documentaire sur le concours sur France Ô.
 
-<div class="center" markdown="1">
+<div class="center">
   {% youtube ikB1CFZWnGY pct50 %}
   {% youtube JBLYd_I6FFY pct50 %}
 </div>

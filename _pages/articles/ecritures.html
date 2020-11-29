@@ -4,4 +4,4 @@ permalink: /articles_ecritures
 ---
 {% include nav_categories_articles.html %}
 {%- assign listing = site.articles | where:'category','ecritures' -%}
-{%- for article in listing -%}{{ article.titre }}{%- endfor -%}
+{%- for article in listing -%}{% include article.html %}{%- endfor -%}

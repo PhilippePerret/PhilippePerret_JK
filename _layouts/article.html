@@ -2,7 +2,8 @@
 layout: default
 ---
 {{ site.liens.revenir }}
+{% include nav_categories_articles.html %}
+{% include bloc_infos.html owner = page %}
 <h2>{{ page.titre }}</h2>
 <img class="regular" src="/img/{{ page.dossier_images }}/{{ page.photo }}" />
-{% include bloc_infos.html owner = page %}
 {{ content }}

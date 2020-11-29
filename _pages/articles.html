@@ -5,6 +5,4 @@ permalink: /articles
 ---
 {% include nav_categories_articles.html %}
 {%- assign listing = site.articles | sort: 'date' -%}
-{%- for article in listing -%}
-  {% include article.html %}
-{%- endfor -%}
+{%- for article in listing -%}{% include article.html %}{%- endfor -%}

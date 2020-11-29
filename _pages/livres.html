@@ -37,6 +37,8 @@ layout: default
       <div class="fright image-livre">
         {%- if livre.no_photo -%}
           {%- assign photo = 'no_photo' -%}
+        {%- elsif livre.photo -%}
+          {%- assign photo = livre.photo -%}
         {%- else -%}
           {%- assign photo = livre.id -%}
         {%- endif -%}

@@ -5,36 +5,13 @@ permalink: /tutoriels
 ---
 <p class="hidden">Tous les tutoriels sur l'écriture, la musique et autres sujets</p>
 
+<ul style="list-style:none;font-size:1.4em;line-height:3">
 {%- for categorie_tutoriel in site.data.tutoriels -%}
+{%- if categorie_tutoriel.afficher == false -%}{%- continue -%}{%- endif -%}
 
-  {%- if categorie_tutoriel.afficher == false -%}
-    {%- continue -%}
-  {%- endif -%}
+<li>
+  <a href="/tutoriels_{{ categorie_tutoriel.id}}">Tutoriels {{ categorie_tutoriel.titre }}</a>
+</li>
 
-  <div class="categorie-titre titre">{{ categorie_tutoriel.titre }}</div>
-
-  {%- for sous_categorie in categorie_tutoriel.items -%}
-  {%- for tutoriel in sous_categorie.items -%}
-
-
-    <div class="tutoriel item regular">
-
-      <h2 class="">{{ tutoriel.titre }}</h2>
-      <div class="colonnes2">
-        <div class="col1 small">
-          {%- include bloc_infos.html owner=tutoriel category=categorie_tutoriel.titre sous_categorie=sous_categorie.titre -%}
-          {{ tutoriel.resume }}
-        </div>
-        <div class="col2">
-          {%- if tutoriel.youtube_id -%}
-            {% youtubeb %}{{ tutoriel.youtube_id }}{% endyoutubeb %}
-          {%- endif -%}
-        </div>
-      </div>
-
-    </div>
-
-  {%- endfor -%}
-  {%- endfor -%}
-
-{%- endfor -%}
+{% endfor %}
+</ul>

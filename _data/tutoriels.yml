@@ -1,6 +1,7 @@
 # Données sur les tutoriels (vidéo)
 - music:
   titre: Musique
+  id: musique
   items:
     - analyse:
       titre: Analyse
@@ -15,6 +16,7 @@
 
 - scrivener:
   titre: Scrivener
+  id: scrivener
   items: # les sous-catégories
     - epingled:
       titre: Épinglés
@@ -339,6 +341,7 @@
 # --- ÉCRITURE ---
 - writing:
   titre: Écriture
+  id: ecriture
   items:
     - redaction:
       titre: La Rédaction

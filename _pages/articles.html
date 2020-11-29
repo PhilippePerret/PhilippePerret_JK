@@ -8,7 +8,7 @@ permalink: /articles
 {%- for billet in site.articles -%}
   <div class="item regular">
     <div class="item-photo">
-      <img class="regular" src="/img/articles/{{ billet.categorie }}/{{ billet.photo }}" />
+      <img class="regular" src="/img/{{ billet.dossier_images }}/{{ billet.photo }}" />
     </div>
     {% include bloc_infos.html owner=billet %}
     <h2 class="clickable"><a href="{{ billet.permalink }}" class="titre">{{ billet.titre }}</a></h2>

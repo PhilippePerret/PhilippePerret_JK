@@ -1,5 +1,12 @@
 <div class="item-infos">
-  <span class="item-rubrique exergue"> Catégorie {{ page.owner.categorie }}</span>
+  <span class="item-rubrique exergue">
+    {%- if include.category -%}
+      {{ include.category }}
+    {%- else -%}
+      {{ include.owner.category }}</span>
+    {%- endif -%}
+    {%- if include.sous_categorie -%}&nbsp;•&nbsp;{{ include.sous_categorie }}{% endif %}
+    {%- if include.owner.sous_categorie -%}&nbsp;•&nbsp;{{ include.owner.sous_categorie }}{% endif %}
   <span> • </span>
-  <span class="item-date date">{{ page.owner.at }}</span>
+  <span class="item-date date">{{ include.owner.at }}</span>
 </div>

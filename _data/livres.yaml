@@ -3,9 +3,9 @@
   items:
   - id: mortvivant
     titre: mort@vivant
-    date: 12 octobre 2003
+    category: Roman
+    at: 12 octobre 2003
     editeur: Anne Carrière (série noire)
-    state: 5
     resume: Après avoir découvert la mort de son mentor B. Ackerman, patron de la
       SSII — Société de Service et d'Ingénierie Informatique — pour laquelle il travaille,
       Alain Esquerre se plonge dans une enquête en marge de la police qui va lui permettre
@@ -16,11 +16,12 @@
     blog: article?categorie=mortvivant
   - id: cloaca
     titre: Cloaca Maxima
+    category: Roman
     editeur: Encres de Siagne
     state: 5
     blog: article?categorie=cloaca
     isbn: 979-10-90461-14-7
-    date: 12 novembre 2018
+    at: 12 novembre 2018
     resume: |
       Suite à la découverte de mystérieux cadavres dans les égouts de Paris
       — la Cloaca Maxima de la Rome antique —, Nathalie, employée à la mairie, doit
@@ -38,19 +39,23 @@
     titre: Savoir rédiger et présenter son scénario
     editeur: Maison du film / Scope Éditions / Encres de Siagne
     isbn: 979-10-90461-05-5
+    category: Ouvrage pédagogique
     photo_ext: png
-    state: 3
-    date: 12 juin 2016
+    at: 12 juin 2016
     resume: |
       Ouvrage pédagogique sur la rédaction et la présentation de la continuité dialoguée
       d'un film, plébiscité dès sa sortie en 1998 et toujours ré-édité aujourd'hui.
-      Préface de Yves Lavancier.
+      Préface de Yves Lavancier.<br>Cet ouvrage fait partie de la
+      <a href="https://eduscol.education.fr/cinema/formation-et-recherche/formation-continue/bibliographies">liste des ouvrages de référence</a>
+      établie par l'Éducation Nationale.
+
     link: http://encresdesiagne.fr/index.php?id_product=32&id_product_attribute=0&rewrite=savoir-rediger-et-presenter-son-scenario&controller=product
     blog: null
   - id: creer-personnages-inoubliables
     titre: Créer des personnages inoubliables
+    category: Ouvrage pédagogique
     editeur: Dixit
-    date: 12 février 1999
+    at: 12 février 1999
     state: 5
     resume: |
       TRADUCTION de l'ouvrage « Creating Inforgettable Characters » de <a href="https://fr.wikipedia.org/wiki/Linda_Seger" target="_blank">LINDA
@@ -68,21 +73,24 @@
   items:
     - id: pss-amour-fou
       titre: Passé sous silence – Un amour fou
-      date: 12 décembre 2019
+      category: Roman
+      at: 12 décembre 2019
       state: 5
       resume: Pour ce premier épisode de la série “Passé sous silence”, France Lombard doit s'occuper d'une jeune femme qui n'en peut plus de mettre un terme violent à toutes ses histoires d'amour, de façon compulsive, comme si elle était possédée. France va remonter quatre générations de femmes pour découvrir enfin le “patient zéro”, toujours vivant, qui possède sans le savoir la clé du problème de sa descendante.
       link: null
     - id: le-parc
       titre: Le Parc
+      category: Roman
       resume: |
         (roman Jeues Adultes) Vania, comme tous les enfants de ce monde dystopique, a été placée dès son plus jeune âge dans un lieu sauvage, sans adultes, pour y faire son apprentissage. Elle a 15 ans lorsque Till, son petit ami qui vient de fêter ses 16 ans, est exfiltré pour retourner dans le monde extérieur, comme l'exige le protocole. Vania se retrouve seule avec l'enfant adopté dont elle a la charge, exposée aux nombreux dangers que recelle le Parc.
-      date: 31 août 2020
+      at: 31 août 2020
 
 - romans_en_cours:
   titre: Romans en cours d'écriture
   items:
     - id: digest-md5
       titre: Digest/Md5
+      category: Roman
       resume: |
         Ce roman racontera la plongée dans la vie d'un hacker spécialiste
         de la cryptographie, obsédé par la sécurité
@@ -93,9 +101,11 @@
     - id: pss-faiseuse-anges
       titre: Passé sous silence — La Faiseuse d’anges
       resume: Deuxième épisode de la série “Passé sous silence”
+      category: Roman
       no_photo: true
     - id: tueuse-verte
       titre: Tueuses vertes (titre de travail)
+      category: Roman
       no_photo: true
 
 - romans_en_projet:

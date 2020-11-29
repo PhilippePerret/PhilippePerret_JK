@@ -1,6 +1,12 @@
 a, a.visited, a.linked, a.hover
   color: #4e84a6
   text-decoration: none
+  cursor: pointer
+
+// Par exemple, quand un H2 contient un lien <A>, le curseur ne passe pas
+// en pointer. On ajoute cette classe à H2 pour palier ce problème
+.clickable
+  cursor: pointer
 
 /* Les liens pour rejoindre les sections */
 div#header-sections

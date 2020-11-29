@@ -2,7 +2,7 @@
 
 
 
-[Section programmation](#programmation)
+[Allez à la section programmation](#programmation)
 
 
 
@@ -34,7 +34,7 @@ mes_trucs_a_moi:
 
 Et utiliser ensuite, dans le texte, `{{ site.mes_trucs_a_moi.mon_premier }}` ou  `{{ site.mes_trucs_a_moi.mon_deuxieme }}`.
 
-## Toutes les balises utilisables
+## Toutes les balises (tags) personnalisées
 
 * [`{% date <date> %}`](#tag_date). Pour inscrire une date dans un format de date propre. Permet aussi de convertir une date ou un timestamp en date humaine.
 * `{% exergue <texte>%}`. Permet de mettre le `<texte>` dans le style exergue, c'est-à-dire en rouge gras, sur le site perso.
@@ -180,6 +180,44 @@ Usage
 ~~~
 
 La `class`et la `legend`, comme pour les [images](#tag_image), sont facultatifs.
+
+Pour définir la taille de la vidéo, on la met dans un div qui définit explicitement son `height` :
+
+~~~markdow
+<div style="height:200px;width:300px;">
+	{% youtube fyugnenqs3Df %}
+</div>
+~~~
+
+Pour que la balise soit plus explicite, on peut utiliser une variable de page en lieu et place de l’identifiant YouTube :
+
+~~~markdown
+---
+ma_video: fyugnenqs3Df
+---
+
+...
+
+{% youtube ma_video %}
+
+...
+~~~
+
+#### Bloc tag `youtube`
+
+Si l’identifiant de la vidéo ne peut pas être récupéré à l’aide de la formule précédente, comme c’est le cas à l’intérieur d’une boucle, on crée un tag-bloc avec `youtubeb` (noter le « b » final). On trouve le cas avec les tutoriels par exemple :
+
+~~~markdown
+{% for tutoriel in site.tutoriels %}
+
+	{{tutoriel.titre}}
+	
+	{% youtubeb %}{{ tutoriel.youtube_id }}{% endyoutubeb %}
+
+{% endfor %}
+~~~
+
+
 
 
 

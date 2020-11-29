@@ -23,14 +23,7 @@ layout: default
       {{ livre.titre }}
     </h2>
 
-    <div class="item-infos">
-      <span class="item-rubrique exergue">LIVRES</span>
-      <span> • </span>
-      <span class="item-date">
-        <span class="date">
-        {%- if livre.date -%}{{ livre.date }}{%- else -%}À venir{%- endif -%}</span>
-      </span>
-    </div>
+    {% include bloc_infos.html owner=livre %}
 
     {%- if livre.editeur -%}
       <div class="item-infos">

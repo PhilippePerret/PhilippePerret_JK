@@ -10,8 +10,8 @@ permalink: /articles
     <div class="item-photo">
       <img class="regular" src="/img/articles/{{ billet.categorie }}/{{ billet.photo }}" />
     </div>
-    {% include bloc_infos.html owner = billet %}
-    <h2> <a href="{{ billet.permalink }}" class="titre">{{ billet.titre }}</a> </h2>
+    {% include bloc_infos.html owner=billet %}
+    <h2 class="clickable"><a href="{{ billet.permalink }}" class="titre">{{ billet.titre }}</a></h2>
     <div class="item-resume">
       {% if billet.resume %}{{ billet.resume }}{% else %}{{ billet.excerpt | truncate: 400 }}{% endif %}
     </div>

@@ -1,0 +1,387 @@
+# Données sur les tutoriels (vidéo)
+- music:
+  titre: Musique
+  items:
+    - analyse:
+      titre: Analyse
+      items:
+        - initiation_analyse:
+          titre: 'Initiation à l’Analyse musicale'
+          category: musicale
+          photo: null
+          youtube_id: dT6RSHmyoN0
+          resume: "Tutoriel d'initiation à l'analyse musicale sur la base du Premier prélude du premier volume du clavecin bien tempéré de Jean-Sébastien Bach."
+          at: 16 février 2014
+
+- scrivener:
+  titre: Scrivener
+  items: # les sous-catégories
+    - epingled:
+      titre: Épinglés
+      items:
+      - id: prise-en-main
+        titre: Tutoriel interactif de prise en main de Scrivener
+        state: 5
+        resume: >
+          <a href="https://drive.google.com/open?id=1I4p36V-R9q0sU1ghf-tF81_JjHtOFZeV">TÉLÉCHARGER LE TUTORIEL</a> et l'ouvrir dans l'application.
+        at: 18 aout 2018
+      - id: fmt-les-bases
+        titre: Les Bases du formatage de sortie dans Scrivener
+        photo: Vignette.jpg
+        at: 4 janvier 2020
+        state: 5
+        youtube_id: iYsKtfVudTc
+        resume: >
+          Tout ce qu'il faut comprendre pour bien formater ses exports et ses
+          impressions avec Scrivener
+      - id: raccourcis-incontournables
+        titre: Les raccourcis-clavier Scrivener incontournables
+        youtube_id: ZtZsmLVa8MU
+        state: 5
+        resume: >
+          Raccourcis-clavier in&shy;con&shy;tour&shy;na&shy;bles,
+          in&shy;dis&shy;pen&shy;sables, pour gagner un temps considérable
+          avec Scrivener 3.
+        at: 23 aout 2018
+    - formatage:
+      titre: Le Formatage de sortie
+      items:
+      - id: fmt-les-bases
+        titre: Les Bases du formatage de sortie dans Scrivener
+        photo: Vignette.jpg
+        at: 4 janvier 2020
+        state: 5
+        youtube_id: iYsKtfVudTc
+        resume: >
+          Tout ce qu'il faut comprendre pour bien formater ses exports et ses
+          impressions avec Scrivener
+      - id: fmt-types-sections
+        titre: 'Formatage : les types de sections'
+        photo: Vignette.jpg
+        at: 1 février 2020
+        state: 5
+        youtube_id: CSYCqqMHs4U
+        resume: >
+          Dans la série des vite-faits, ce tutoriel décrit la façon de gérer et
+          de définir les types de section des éléments de son projet.
+      - id: fmt-format-simple
+        titre: 'Formatage : un format de sortie simple'
+        photo: Vignette.jpg
+        at: 29 février 2020
+        state: 5
+        youtube_id: XuZJ_tRNC6k
+        resume: >
+          Ce tutoriel décrit la procédure pour se familiariser avec les formats
+          de sortie, sur la base d'un format de sortie relativement simple.
+      - id: fmt-numeros-pages
+        titre: 'Formatage : les numéros de page'
+        at: 16 mai 2020
+        state: 5
+        youtube_id: CwTxkg6Mzoo
+        resume: >
+          Ce tutoriel montre comment utiliser et mettre en forme ses numéros de
+          pages dans les formats de sortie.
+    - developper:
+      titre: Développer son histoire/document
+      items:
+      - id: definir-longueur-scenes
+        titre: Définir la longueur des scènes de son roman
+        youtube_id: Ran9kSI0tzY
+        state: 5
+        resume: >
+          Ce tutoriel expose une méthode pour définir la longueur des parties
+          et des scènes de son roman de la façon la plus rationnelle et
+          harmonieuse possible.
+        at: 13 aout 2018
+      - id: piege-objectifs
+        titre: Le Piège des objectifs (ou comment l’éviter)
+        at: 1 septembre 2019
+        state: 5
+        youtube_id: 36XdrPBBuns
+        resume: >
+          Ce tutoriel propose une méthode de gestion efficace des objectifs
+          (de mots, de caractères) dans Scrivener qui permet de ne pas confondre
+          « quantité » avec « qualité ».
+      - id: reglage-fin-objectifs
+        titre: Régler finement ses objectifs de mots et de caractères dans Scrivener
+        youtube_id: 2ltBMChNMJI
+        state: 5
+        resume: >
+          Ce tutoriel décrit la méthode pour régler les nombres à atteindre
+          dans les objectifs, en utilisant les tolérances et l’affichage des
+          états.
+        at: 17 aout 2018
+      - id: gerer-longueur-scenes
+        titre: Gérer la longueur de ses scènes avec une feuille de calcul
+        youtube_id: _cAH_CY6NZY
+        resume: >
+          Ce tutoriel explique comment utiliser les feuilles de calcul ci-après
+          pour calculer les longueurs de ses scènes en pages et en mots.
+          <a href="https://drive.google.com/open?id=146qWqEl8Mft4ryiOE2HBP5Y8gQdCKRii">Modèle Excel</a>
+          • <a href="https://drive.google.com/open?id=1QtYkutQNEodjMNArBSMu6ayH0-pnyVUK">Modèle LibreOffice Calc</a>
+          • <a href="https://drive.google.com/open?id=1ESFDVtSQtNmYe6M1W878LI3g3S7rvQAd">Modèle Numbers (Mac)</a>
+        state: 5
+        at: 17 septembre 2018
+      - id: comments-follow-infos
+        titre: Les commentaires pour suivre les informations de son histoire
+        photo: Vignette.jpg
+        youtube_id: t73JdpW0ldM
+        state: 5
+        resume: >
+          Utiliser les commentaires des documents pour suivre l'avancée de
+          ses informations dans son histoire.
+        at: 29 février 2020
+      - id: suivre-projet-visu
+        titre: Suivre visuellement l’avancée de son projet avec Scrivener
+        at: 23 aout 2019
+        state: 5
+        youtube_id: aFZTbbMaOxs
+        resume: >
+          Ce tutoriel montre comment, en utilisant les icônes personnalisées,
+          on peut suivre de façon très visuelle l’avancée de son projet.
+          C’est donc aussi, indirectement, un tutoriel sur la création d’icônes
+          personnalisées, pour tout usage.
+      - id: documentation-et-signets
+        titre: La Documentation à portée de main avec les signets
+        photo: Vignette.jpg
+        at: 18 janvier 2020
+        state: 5
+        youtube_id: e7T7YKUhESA
+        resume: >
+          Tutoriel montrant comment utiliser efficacement les signets pour avoir
+          sous la main toute la documentation dont on a besoin quand on
+          travaille un texte.
+      - id: versionning-with-snapshots
+        titre: Les Instantanés pour versionner son travail
+        photo: Vignette.jpg
+        at: 14 mars 2020
+        state: 5
+        youtube_id: Ls_D_EX9NtA
+        resume: >
+          Ce tutoriel décrit tout ce qu'il faut savoir pour utiliser au mieux les
+          instantanés, qui prennent des *photos textuelles* de son travail au
+          cours du développement.
+    - documents:
+      titre: Les Documents
+      items:
+      - id: import-doc-with-styles
+        titre: Importer dans Scrivener, avec ses styles, un document LibreOffice ou Word
+        at: 15 septembre 2019
+        state: 5
+        youtube_id: f0Paw0-LL_4
+        resume: >
+          Tutoriel décrivant la façon d’importer les feuilles de styles des
+          documents provenant d’autres traitements de texte quand ils sont
+          importés dans Scrivener (qui, par défaut, importe les formatages
+          <span class="red">mais pas les feuilles de styles</span>).
+
+      - id: find-doc-in-binder
+        titre: Retrouver, dans le classeur, le document édité
+        youtube_id: AK9dxSlrHDY
+        state: 5
+        resume: >
+          Court tutoriel vidéo montrant comment retrouver dans la hiérarchie du
+          classeur le document actuellement édité (utile lorsque ce document a
+          été édité par la recherche ou tout autre moyen que la sélection dans
+          le classeur, ou que ce classeur est fermé).
+        at: 9 aout 2019
+      - id: use-styles
+        titre: Créer et utiliser les styles
+        photo: Vignette.jpg
+        at: 8 février 2020
+        state: 5
+        youtube_id: 0fJhF18KDQo
+        resume: >
+          Ce tutoriel montre comment créer des styles personnalisés pour gérer
+          l'aspect de son projet dans Scrivener et comment les utiliser
+          efficacement.
+      - id: insert-table-des-matieres
+        titre: Insérer une table des matières
+        photo: Vignette.jpg
+        at: 17 décembre 2019
+        state: 5
+        youtube_id: VQJTS9Qa0CE
+        resume: Pour insérer une table des matières dans son projet.
+    - redaction:
+      titre: La Rédaction
+      items:
+      - id: rediger-scenario
+        titre: Rédiger son scénario avec Scrivener
+        youtube_id: iirDX576LP0
+        state: 5
+        resume: >
+          Tutoriel présentant la façon de rédiger un scénario dans Scrivener,
+          avec le mode « Script ». Ce tutoriel est donc, indirectement, une
+          présentation du très puissant mode « script » de Scrivener.
+        at: 2 septembre 2018
+      - id: choisir-police
+        titre: Choisir avec aisance une police de caractère
+        at: 8 septembre 2019
+        state: 5
+        youtube_id: LrA79euICCk
+        resume: >
+          Ce tutoriel décrit une méthode simple à utiliser lorsque l’on cherche
+          une police pour un texte (dans Scrivener ou autre) en testant les
+          fontes les unes après les autres.
+      - id: auto-space-mac
+        titre: Espaces insécables automatiques dans Scrivener (Mac)
+        youtube_id: Xv7m2bqgpAQ
+        state: 5
+        resume: >
+          Tutoriel pour apprendre à placer automatiquement des espaces
+          insécables au endroits requis d'un texte, sous Mac.
+        at: 7 octobre 2018
+    - navigation:
+      titre: La Navigation
+      items:
+      - id: plan-et-scenes
+        titre: Afficher ses scènes depuis le plan du projet
+        youtube_id: pDC9gPfEJBM
+        state: 5
+        resume: >
+          Pour afficher ses scènes d'un simple clic, dans un autre éditeur,
+          en sélectionnant les scènes dans le plan du projet.
+        at: 25 janvier 2020
+    - interface:
+      titre: L’Interface
+      items:
+      - id: affecter-raccourcis
+        titre: Affecter des raccourcis aux menus Scrivener
+        youtube_id: hw0ZUM0UnBU
+        state: 5
+        resume: >
+          Ce tutoriel présente la démarche pour affecter des raccourcis
+          clavier à des opérations répétitives lorsqu’ils n’existent pas
+          dans l’application Scrivener elle-même. Fonctionne pour toute
+          autre application.
+        at: 28 aout 2018
+      - id: label-couleur-comments
+        titre: Définir des libellés par couleur de fond de commentaires
+        youtube_id: sMESKMN2dJE
+        resume: >
+          Dans la version actuelle de Scrivener (version 3), il n'est pas
+          possible de définir les labels, les libellés des couleurs qu'on
+          peut affecter au fond des commentaires.
+        at: 16 aout 2019
+      - id: use-icones
+        titre: Créer et utiliser les icônes de fichiers et de dossiers
+        at: 15 février 2020
+        youtube_id: ZBfnYXwmawE
+        resume: >
+          Tutoriel décrivant la façon de fabriquer et d’utiliser des icônes
+          pour les fichiers et les dossiers du classeur — entre autres choses.
+      - id: les-fiches
+        titre: Tout sur les fiches (du tableau d’affichage)
+        at: 7 mars 2020
+        youtube_id: Jt84BdbjOOA
+        resume: >
+          Ce tutoriel fait le tour de tout ce qu'il faut savoir (ou presque)
+          sur les fiches du tableau d’affichage, aspect, utilisation, etc.
+    - application:
+      titre: L’Application
+      items:
+      - id: integrer-google
+        titre: Intégrer Google à son projet Scrivener
+        youtube_id: LyWgEubiBvo
+        resume: >
+          Ce tutoriel montre comment utiliser facilement Google, ou d’autres
+          sites internet utiles à l’auteur quand il écrit —
+          dic&shy;tion&shy;naires, en&shy;cy&shy;clo&shy;pé&shy;dies, etc.
+          — sans (presque) quitter Scrivener.
+        at: 10 aout 2018
+      - id: use-blocnotes
+        titre: Utiliser efficacement le Bloc-notes de Scrivener
+        youtube_id: nhNEECtpOZk
+        resume: >
+          Ce tutoriel vidéo explique comment se servir du bloc-notes de
+          Scrivener pour gérer des contenus provenant d’autres applications,
+          comme des texte formatés, des images ou des documents PDF, qui
+          peuvent être insérés soit en tant que document, soit dans des
+          textes de document, dans un projet Scrivener.
+        at: 7 septembre 2018
+    - divers:
+      titre: Divers
+      items:
+      - id: define-auteur-infos
+        titre: Définir et utiliser les informations d’auteur·e avec Scrivener
+        at: 06 aout 2018
+        youtube_id: AwgMQfSBMAk
+        resume: >
+          Tutoriel montrant comment définir et utiliser les informations
+          concernant l'auteur(e) d'un projet, dans Scrivener, pour renseigner
+          par exemple une première de couverture.
+      - id: astuces-1
+        titre: Les Astuces incontournables des Scrivener (1 à 10)
+        youtube_id: Lf3uHM9O_uc
+        resume: >
+          Ce tutoriel vidéo fait partie d’une série présentant les
+          astuces incontournables si l’on veut utiliser au mieux
+          l’application Scrivener. C’est un premier volet de dix
+          astuces. Passer d’un projet à l’autre avec le clavier
+          • déplacer un paragraphe avec le clavier
+          • déplacer des éléments (classeur, plan) avec le clavier
+          • appliquer un style avec le clavier
+          • utiliser les listes de remplissage
+          • fractionner l’éditeur avec le clavier
+          • distribuer les mots-clés par glissé-déposé
+          • tout refermer ou déployer en un clic
+          • détacher la fenêtre des signet
+          • afficher le contenu du signet dans la fenêtre des signets
+        at: 10 septembre 2018
+      - id: recup-texte-projet-corrupted
+        titre: Récupérer tous les textes d’un projet corrompu
+        at: 11 janvier 2020
+        youtube_id: O3sV7FtuVEQ
+        resume: >
+          Comment récupérer tous les textes de son projet dans un document
+          Scrivener qui semble corrompu ou qui ne veut plus s’ouvrir.
+
+# --- ÉCRITURE ---
+- writing:
+  titre: Écriture
+  items:
+    - redaction:
+      titre: La Rédaction
+      items:
+        - id: ecriture-organique-1
+          titre: L’Écriture organique (première partie)
+          youtube_id: z8p2_EofjQs
+          resume: >
+            L'écriture organique est une méthode de conception et de rédaction
+            des documents.
+          at: 02 mai 2019
+        - id: raccourcis-clavier-ecriture
+          titre: Les Raccourcis clavier indispensables
+          at: 5 juin 2015
+          state: 5
+          youtube_id: XjaO9kcnGOU
+          resume: >
+            Ce tutoriel présente les raccourcis clavier que tout auteur,
+            ou toute personne écrivant sur ordinateur, se doit de connaitre
+            afin d'utiliser au mieux son traitement de texte.
+
+    - formatage:
+      titre: Le Formatage
+      items:
+      - id: mise-en-forme-1
+        titre: La Mise en forme (1/3)
+        youtube_id: iLttkbFeWt4
+        resume: >
+          LibreOffice. Mise en forme des documents avec les styles.
+          Ce qu'est un style • Quand utiliser
+          les styles ? • À quoi servent les styles ?
+        at: 18 avril 2018
+      - id: mise-en-forme-2
+        titre: La Mise en forme (2/3)
+        youtube_id: sB213Mcg15I
+        resume: >
+          Conseils pour utiliser au mieux les styles • Création des styles •
+          Principaux attributs de mise en forme • Autres paramètres utiles.
+        at: 23 avril 2018
+      - id: mise-en-forme-3
+        titre: La Mise en forme (3/3)
+        youtube_id: CZt60oPHmUQ
+        resume: >
+          Passage en revue systématique de tous les onglets de la fenêtre des
+          styles de LibreOffice.
+        at: 30 avril 2018

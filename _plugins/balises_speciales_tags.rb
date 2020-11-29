@@ -97,6 +97,32 @@ HTML
   # Pour les vidéos YouTube
   #   Balise '{% youtube <id string> %}'
   #
+  # Note : la vidéo peut être fournie par une variable de page (front matter)
+  # qu'il faut évaluer.
+  class YouTubeBlock < Liquid::Block
+    def render(context)
+      text = super
+      # puts "text: #{text}"
+      @input = text.strip.split(' ')
+      @youtube_id = @input.shift
+      @class = @input.shift
+      @class = nil if ['none','nil'].include?(@class)
+      @legend = @input.join(' ')
+      @legend = nil if @legend == ""
+      # puts "@youtube_id dans render : #{@youtube_id.inspect}"
+      page = context.registers[:page]
+      yt_id = @youtube_id
+      # puts "yt_id: #{yt_id}"
+      div = YouTubeTags::FRAME_YOUTUBE % {yt_id: yt_id, class: @class}
+      div = YouTubeTags::FRAME_YOUTUBE_WITH_LEGEND % {yt_iframe: div, legend: @legend} if @legend
+      return div
+    end
+  end
+  # Pour les vidéos YouTube
+  #   Balise '{% youtube <id string> %}'
+  #
+  # Note : la vidéo peut être fournie par une variable de page (front matter)
+  # qu'il faut évaluer.
   class YouTubeTags < Liquid::Tag
     def initialize(tag_name, str, token)
       super
@@ -109,7 +135,10 @@ HTML
     end
     def render(context)
       # puts "@youtube_id dans render : #{@youtube_id.inspect}"
-      div = FRAME_YOUTUBE % {yt_id: @youtube_id, class: @class}
+      page = context.registers[:page]
+      yt_id = page[@youtube_id] || @youtube_id
+      # puts "yt_id: #{yt_id}"
+      div = FRAME_YOUTUBE % {yt_id: yt_id, class: @class}
       div = FRAME_YOUTUBE_WITH_LEGEND % {yt_iframe: div, legend: @legend} if @legend
       return div
     end
@@ -199,4 +228,5 @@ Liquid::Template.register_tag('date', Jekyll::DateTags)
 Liquid::Template.register_tag('exergue', Jekyll::ExergueTags)
 Liquid::Template.register_tag('image', Jekyll::ImageTags)
 Liquid::Template.register_tag('youtube', Jekyll::YouTubeTags)
+Liquid::Template.register_tag('youtubeb', Jekyll::YouTubeBlock)
 Liquid::Template.register_tag('lien', Jekyll::LienTags)

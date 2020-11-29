@@ -6,6 +6,18 @@ permalink: /articles/filme-ton-quartier
 layout: article
 photo: "filme-ton-quartier/filme-ton-quartier.jpg"
 dossier_images: articles/films/filme-ton-quartier
+# Les vidéos
+le_film: v9Kmggcubhs
+nasserdine_au_jt: T0Zn0dJ_eOs
+tali_au_jt: jvjiJMA5fpA
+talitoifati_mayotte_premiere: DIQglwj51hc
+tali_telephone_isabelle_fargier: oqo9NO2G4wE
+selfies_mahabou: -dgxIH_ujE0
+les_temoins_outre_mer: 6jO1m52JubA
+djamar_jt_franceO: HSCw2eJLYY8
+festival_international_evreux: JBLYd_I6FFY
+coup_de_fil_evreux: ikB1CFZWnGY
+
 ---
 
 L’aventure “Filme ton quartier 2018” du <b>Collectif Esp&R</b> — prononcer “espère” — commence véritablement le {% date 7 aout 2018 %}, en cours de français, à l’École du civisme Frédéric d’Achery de {% exergue Doujani %}, quartier de Mamoudzou sur l’ile de {% exergue Mayotte %}, une école hors système constituée de jeunes de 16 à 26 ans d’origine comorienne en recherche d’insertion. Pour ma part, je tente d’y enseigner le français. Et l’exercice du jour consiste à rédiger un texte, en groupe ou en solo, sur le thème de la rencontre, choisi cette année 2018 pour le concours France Télévision “{% exergue Filme ton quartier ! %}”.
@@ -38,8 +50,7 @@ Les premiers constitueront le noyau dur et indéfectible du projet : {% exergue 
 
 Plusieurs autres personnes prendront le train du projet en marche : {% exergue Talitoifati Houmadi %}, alors que nous n’avons pas encore quitté la gare, qui nous aperçoit lors de la première réunion de production et s’incruste aussitôt dans l’équipe, avec sa passion, son énergie communicative et toutes ses idées. Autre membre du noyau dur, {% exergue Sadjadi Hamidoune %} (photo), lui, rejoindra le collectif lors du premier jour de tournage. Il y jouera un rôle actif et impliqué aux côtés de Nasserdine.
 
-  {% image marion.png fleft Marion %}
-{% exergue Marion Michel %} sera la dernière à rejoindre l’équipe, lors du tournage décisif du film.
+{% image marion.png fleft Marion %}{% exergue Marion Michel %} sera la dernière à rejoindre l’équipe, lors du tournage décisif du film.
 
 
 Mais nous n’y sommes pas encore… Aujourd’hui, tout reste à faire, tout reste à écrire, à concevoir.
@@ -76,8 +87,8 @@ créée à l’occasion, le {% date 11 septembre %}. Un collectif qui portera d�
 <br>C’est aussi l’occasion de la première diffusion “publique” du film, au sein de l’École du civisme. Les premières réactions sont enthousiastes, quand bien même la qualité de la projection reste pour le moins approximative…
 <br>Le lendemain, {% date 12 septembre 2018 %}, après nous être assurés une dernière fois que la vidéo était bien consultable sur notre chaine YouTube, nous procédons à l’inscription du film au concours “Filme ton quartier !”, session de 2018.
 
-<div style="margin:2em 10%;">
-  {% youtube v9Kmggcubhs %}
+<div style="height:400px;width:100%;">
+  {% youtube le_film %}
 </div>
 
 Le règlement du concours est particulièrement insistant sur l’importance de pouvoir joindre les candidats par téléphone et par mails. L’impossibilité de joindre un gagnant peut être disqualifiante. Or, les jeunes comoriens du collectif empruntant souvent un téléphone à un parent, à un ami, ou changeant souvent d’appareil, n’ayant pas internet chez eux bien sûr, pas plus qu’un ordinateur, nous décidons d’“assurer le coup” en procédant à l’inscription du film au nom de Marion, en qualité de représentante du Collectif Esp&R — ce qui explique qu’elle est souvent citée à tort comme la réalisatrice du film par les journalistes.
@@ -105,11 +116,11 @@ C’est donc avec une certaine inquiétude que Marion rappelle Gwenaëlle.
 
 <table border="0" style="margin:2em 0;">
   <tr>
-    <td width="50%">
-      {% youtube T0Zn0dJ_eOs none Passage de Nasserdine Ahmed au JT de Mayotte La Première, 1er octobre 2018 %}
+    <td width="50%;" style="height:140px;">
+      {% youtube nasserdine_au_jt none Passage de Nasserdine Ahmed au JT de Mayotte La Première, 1er octobre 2018 %}
     </td>
-    <td width="50%">
-      {% youtube jvjiJMA5fpA none Passage de Talitoifati Houmadi au JT de Mayotte La Première, 1er octobre 2018 %}
+    <td width="50%" style="height:140px;">
+      {% youtube tali_au_jt none Passage de Talitoifati Houmadi au JT de Mayotte La Première, 1er octobre 2018 %}
     </td>
   </tr>
 </table>
@@ -119,7 +130,6 @@ Nous avons à peine le temps de nous remettre de ces deux émotions coup sur cou
 
 {% image Olivia_Lepinay.jpg fleft %}
 Olivia nous annonce que le film est en lice pour l’un des trois prix du concours, le Prix de sa Fondation… Elle pose beaucoup de questions, veut tout savoir de la conception de ce film et de ceux qui l’ont créé, afin que le jury puisse se départager.
-
 
 Deux jours plus tard, le {% date samedi 6 octobre %}, un second coup de fil d’Olivia Lepinay — que rien n’obligeait à nous appeler — nous annonce que… <b>{% exergue ma LETTRE d’un QUARTIER de FRANCE %}</b> a remporté les suffrages et qu’il a été choisi pour recevoir le <b>{% exergue Prix de la Fondation Groupe France Télévision %}</b>, à l’unanimité et donc sans hésitation de surcroit !
 <br>Ce qui nous remplit d’autant plus de joie, c’est que son bonheur semble aussi vivace que celui qu’elle nous fait.
@@ -139,7 +149,10 @@ Malheureusement, le son de ces interviews est inutilisable et nous devons procé
 <br>… arrive enfin le {% date lundi 15 octobre %}, jour prévu de l’annonce des résultats.
 <br>Le matin, nous sommes invités, Talitoifati, Nasserdine, Facra et moi, à participer à l’[émission de radio Takamaka d’Isabelle Fargier](https://la1ere.francetvinfo.fr/mayotte/emissions-radio/takamaka) — alias Moina Poutou — sur la radio de Mayotte La Première.
 
-{% youtube DIQglwj51hc %}
+
+<div style="height:400px;width:100%">
+  {% youtube talitoifati_mayotte_premiere %}
+</div>
 
 Les résultats n’étant pas encore publiés, nous ne pouvons faire encore aucune annonce en direct au cours de l’émission. Isabelle — la plus enthousiaste des animatrices/journalistes rencontrées autour de ce projet — nous invite à la rappeler le lendemain pour annoncer le résultat — si toutefois ils ont été diffusés…
 <br>Les résultats seront enfin affichés, le {% date 15 octobre, à 15 heures %}, sur le [site de France Télévision dédié au concours](http://evenements.francetv.fr/emissions/filme-ton-quartier/les-laureats_573581).
@@ -147,9 +160,10 @@ Les résultats n’étant pas encore publiés, nous ne pouvons faire encore aucu
 <br>Tout cela est donc vrai ! C’est David contre Goliath. Une petite équipe de jeunes, hors système, considérés ici, à Mayotte, comme des délinquants tout juste bons à cambrioler, à agresser, à trainer, vient de réaliser un film représentant l’ile au plan national, et de remporter qui plus est une victoire face à des dizaines de professionnels aguerris ! C’est presque trop beau pour être vrai.
 <br>Nous avons cependant une petite pensée pour les 160 autres participants, qui découvrent en même temps que nous, avec déception, que leur film n’a pas été retenu. Nous aurions pu être à leur place, les sélections par un jury présentant toujours une part d’aléatoire qui n’est pas toujours en correspondance avec la qualité des productions présentées aux concours. Ici, c’est à notre bénéfice, et personne ne s’en plaindra dans le collectif !
 
-  <div style="float:left;width:30%!important;margin-right:1em;padding-bottom:1em;padding-top:1em;">
-    {% youtube oqo9NO2G4wE %}
-  </div>
+<div class="fleft" style="width:200px;height:140px;margin-right:2em;">
+  {% youtube tali_telephone_isabelle_fargier %}
+</div>
+
 Le lendemain matin, Talitoifati rappelle comme convenu Isabelle Fargier à la fin de l’émission Takamaka pour lui annoncer la bonne nouvelle. Isabelle a une explosion victorieuse et sincère qui fait plaisir à entendre (cf. la vidéo).
 
 Dans l’après-midi de ce même {% date mardi 16 octobre 2018 %}, le cours de français de l’École du civisme Frédéric d’Achery est remplacé par un pot organisé pour la victoire, avec les membres du collectif bien entendu, et tous les autres élèves — qui, nous nous en doutons, doivent un peu regretter de ne pas avoir pris la décision de participer à ce projet. C’est à cette occasion qu’est annoncée la somme remportée — 10 000 € quand même ! et une caméra professionnelle d’une valeur de 1300 € — et la répartition qui en sera faite en fonction de l’investissement de chacun.
@@ -158,16 +172,17 @@ Dans l’après-midi de ce même {% date mardi 16 octobre 2018 %}, le cours de f
 Le {% date 12 novembre %}, Gaëlle Malet, animatrice sur France Ô, nous contacte pour parler du projet dans sa rubrique “Média” dans l’émission les Témoins d’Outre-mer sur France Ô.
 
 
-<div style="float:left;width:50%;margin-right:1em;padding:0 1em;">
-  {% youtube -dgxIH_ujE0 %}
+<div class="fleft" style="width:200px;height:140px;margin-right:2em;">
+  {% youtube selfies_mahabou %}
 </div>
 Aussi, le lendemain, nous tournons des petits “selfies” animés avec tout le collectif : Nasserdine, Talitoifati, Sadjadi, Facar, Parker et Halifa.
 
+<div class="clear"></div>
 
 La chronique sur le film est diffusée le mercredi 13 novembre à 19h20, sur France Ô, dans l’émission “Les Témoins d’Outre-mer”.
 
-<div style="margin:0 10%;">
-  {% youtube 6jO1m52JubA %}
+<div style="width:100%;height:400px;">
+  {% youtube les_temoins_outre_mer %}
 </div>
 
 
@@ -175,13 +190,11 @@ La chronique sur le film est diffusée le mercredi 13 novembre à 19h20, sur Fra
 
 {% image recompense.jpg none Remise des récompenses au Studio 104 de la Maison de la<br>Radio (crédit : Sonia Bela et Rachid Flijja) %}
 
-
 Le lendemain, Djamadar passe même au JT de France Ô pour montrer la récompense, représenter le collectif et évoquer le film.
 
-<div style="margin:1em 20%;">
-  {% youtube HSCw2eJLYY8 %}
+<div style="width:100%;height:400px;">
+  {% youtube djamar_jt_franceO %}
 </div>
-
 
 Le même jour sort un petit article dans Flash-Info. La victoire sera annoncée dans différents journaux, papier aussi bien que télé, sur Kwezi TV par exemple, une petite chaine locale.
 
@@ -195,12 +208,9 @@ Le même jour sort un petit article dans Flash-Info. La victoire sera annoncée 
   {% image tounda.jpg regular %}
 </div>
 
-
 {% image carte.jpg fleft %}Le {% date 22 novembre %}, le film est diffusé à {% exergue Chiconi %} lors d’une journée pour les droits internationaux des enfants, organisée par le Cémea de Mayotte. Nasserdine et Talitoifati viennent l’introduire, accompagnés de Parker, Sadjadi et Bacar.
 
-
-  {% image equipe.jpg fright %}
-En projet : les membres du noyau dur du collectif vont inviter un ou deux de leurs parents à un repas dans un des meilleurs restaurants de Mayotte, le  [Panna Cotta](https://www.petitfute.com/v59944-passamainty/c1165-restaurants/c1031-cuisines-du-monde/688288-le-panna-cotta.html) de Passamainty [Finalement, l'équipe décidera plutôt d'acheter du matériel de tournage. NdR].
+{% image equipe.jpg fright %}En projet : les membres du noyau dur du collectif vont inviter un ou deux de leurs parents à un repas dans un des meilleurs restaurants de Mayotte, le  [Panna Cotta](https://www.petitfute.com/v59944-passamainty/c1165-restaurants/c1031-cuisines-du-monde/688288-le-panna-cotta.html) de Passamainty [Finalement, l'équipe décidera plutôt d'acheter du matériel de tournage. NdR].
 
 L’histoire de “ma LETTRE d’un QUARTIER de FRANCE” s’achève ici pour le moment. Mais nul doute qu’elle se poursuivra, alors ne manquez pas de consulter l'agenda ci-dessous.
 
@@ -210,8 +220,11 @@ L’histoire de “ma LETTRE d’un QUARTIER de FRANCE” s’achève ici pour l
 * {% date Samedi 8 décembre 2018 %} — passage du film au [14e festival international du film d’éducation d’Evreux](https://festivalfilmeduc.net/) (métropole).
 * {% date Samedi 15 décembre 2018 %} — [article sur le passage du film](http://blog.festivalfilmeduc.net/2018/12/ma-lettre-dun-quartier-de-france/) au 14e festival international du film d'éducation d'Évreux.
 * {% date Dimanche 16 décembre 2018, 13h05 %} — diffusion du documentaire sur le concours sur France Ô.
-
 <div class="center">
-  {% youtube ikB1CFZWnGY pct50 %}
-  {% youtube JBLYd_I6FFY pct50 %}
+  <div style="display:inline-block;width:48%;height:140px;">
+    {% youtube coup_de_fil_evreux pct50 %}
+  </div>
+  <div style="display:inline-block;width:48%;height:140px;">
+    {% youtube festival_international_evreux pct50 %}
+  </div>
 </div>

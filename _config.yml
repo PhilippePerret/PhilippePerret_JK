@@ -33,6 +33,12 @@ urls:
   compte_perso_facebook: https://www.facebook.com/perret.phil
   profil_amazon: https://www.amazon.fr/Philippe-Perret/e/B004MT18YW
 
+# Liens fixes (pour les autres, voir _data/liens.yml)
+liens:
+  revenir: >
+    <div class="right">
+      <a href="javascript:history.back()">↩︎ Revenir</a>
+    </div>
 # Build settings
 # theme: minima
 # plugins:

@@ -1,5 +1,8 @@
 ---
 layout: default
 ---
+{{ site.liens.revenir }}
+<h2>{{ page.titre }}</h2>
+<img class="regular" src="/img/{{ page.dossier_images }}/{{ page.photo }}" />
 {% include bloc_infos.html owner = page %}
 {{ content }}

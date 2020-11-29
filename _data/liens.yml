@@ -1,3 +1,11 @@
 cloaca-maxima:
   location: _articles/livres/cloaca-maxima.md
   titre_alt: Cloaca Maxima
+
+icare:
+  location: https://www.atelier-icare.net
+  titre_alt: Atelier Icare
+
+scenariopole:
+  location: https://www.scenariopole.fr
+  titre_alt: le site Scenariopole

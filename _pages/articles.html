@@ -3,18 +3,8 @@ title: Articles
 layout: default
 permalink: /articles
 ---
-<p class="hidden">Tous articles et les coups d'humeur</p>
-
-{%- for billet in site.articles -%}
-  <div class="item regular">
-    <div class="item-photo">
-      <img class="regular" src="/img/{{ billet.dossier_images }}/{{ billet.photo }}" />
-    </div>
-    {% include bloc_infos.html owner=billet %}
-    <h2 class="clickable"><a href="{{ billet.permalink }}" class="titre">{{ billet.titre }}</a></h2>
-    <div class="item-resume">
-      {% if billet.resume %}{{ billet.resume }}{% else %}{{ billet.excerpt | truncate: 400 }}{% endif %}
-    </div>
-    <a href="{{ billet.permalink }}" class="regular bold">Lire la suite…</a>
-  </div>
+{% include nav_categories_articles.html %}
+{%- assign listing = site.articles | sort: 'date' -%}
+{%- for article in listing -%}
+  {% include article.html %}
 {%- endfor -%}

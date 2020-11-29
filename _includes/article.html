@@ -1,0 +1,11 @@
+<div class="item regular">
+  <div class="item-photo">
+    <img class="regular" src="/img/{{ article.dossier_images }}/{{ article.photo }}" />
+  </div>
+  {% include bloc_infos.html owner=article %}
+  <h2 class="clickable"><a href="{{ article.permalink }}" class="titre">{{ article.titre }}</a></h2>
+  <div class="item-resume">
+    {% if article.resume %}{{ article.resume }}{% else %}{{ article.excerpt | truncate: 400 }}{% endif %}
+  </div>
+  <a href="{{ article.permalink }}" class="regular bold">Lire la suite…</a>
+</div>

@@ -1,0 +1,7 @@
+---
+layout: default
+permalink: /articles_etats_dame
+---
+{% include nav_categories_articles.html %}
+{%- assign listing = site.articles | where:'category','etats_dame' -%}
+{%- for article in listing -%}{{ article.titre }}{%- endfor -%}

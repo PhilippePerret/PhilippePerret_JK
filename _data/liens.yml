@@ -2,6 +2,10 @@ cloaca-maxima:
   location: _articles/livres/cloaca-maxima.md
   titre_alt: Cloaca Maxima
 
+mortvivant:
+  location: _articles/livres/mortvivant-presentation.md
+  titre_alt: mort@vivant
+  
 icare:
   location: https://www.atelier-icare.net
   titre_alt: Atelier Icare

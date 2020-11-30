@@ -5,5 +5,7 @@ layout: default
 {% include nav_categories_articles.html %}
 {% include bloc_infos.html owner = page %}
 <h2>{{ page.titre }}</h2>
-<img class="regular" src="/img/{{ page.dossier_images }}/{{ page.photo }}" />
+{%- unless page.no_photo -%}
+  <img class="regular" src="/img/{{ page.dossier_images }}/{{ page.photo }}" />
+{%- endunless -%}
 {{ content }}

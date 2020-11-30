@@ -1,6 +1,7 @@
 ---
 titre: Cloaca Maxima (roman)
 category: livres
+tags: roman, cloaca-maxima
 at: 10 septembre 2018
 date: 2018-09-10
 layout: article

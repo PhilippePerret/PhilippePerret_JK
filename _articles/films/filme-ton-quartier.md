@@ -2,7 +2,7 @@
 titre: Filme ton quartier ! 2018 — Une belle aventure mahoraise
 category: films
 at: 27 novembre 2018
-date: 2018-11-27
+date: 2100-01-01
 layout: article
 photo: filme-ton-quartier.jpg
 dossier_images: "articles/films/filme-ton-quartier"

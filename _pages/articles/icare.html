@@ -3,5 +3,5 @@ layout: default
 permalink: /articles_icare
 ---
 {% include nav_categories_articles.html %}
-{%- assign listing = site.articles | where:'category','icare' -%}
+{%- assign listing = site.articles | where:'category','icare' | sort: 'date' | reverse -%}
 {%- for article in listing -%}{% include article.html %}{%- endfor -%}

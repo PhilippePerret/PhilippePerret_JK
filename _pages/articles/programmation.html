@@ -3,5 +3,5 @@ layout: default
 permalink: /articles_programmation
 ---
 {% include nav_categories_articles.html %}
-{%- assign listing = site.articles | where:'category','programmation' -%}
+{%- assign listing = site.articles | where:'category','programmation' | sort: 'date' | reverse -%}
 {%- for article in listing -%}{% include article.html %}{%- endfor -%}

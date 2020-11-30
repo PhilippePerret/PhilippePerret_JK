@@ -3,5 +3,5 @@ layout: default
 permalink: /articles_ecritures
 ---
 {% include nav_categories_articles.html %}
-{%- assign listing = site.articles | where:'category','ecritures' -%}
+{%- assign listing = site.articles | where:'category','ecritures' | sort: 'date' | reverse -%}
 {%- for article in listing -%}{% include article.html %}{%- endfor -%}

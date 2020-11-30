@@ -3,5 +3,5 @@ layout: default
 permalink: /articles_films
 ---
 {% include nav_categories_articles.html %}
-{%- assign listing = site.articles | where:'category','films' -%}
+{%- assign listing = site.articles | where:'category','films' | sort: 'date' | reverse -%}
 {%- for article in listing -%}{% include article.html %}{%- endfor -%}

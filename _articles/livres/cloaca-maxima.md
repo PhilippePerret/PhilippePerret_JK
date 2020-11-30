@@ -7,6 +7,8 @@ layout: article
 photo: laying-down-cover.jpg
 dossier_images: articles/livres/cloaca-maxima
 permalink: /article/cloaca-maxima
+excerpt: |
+  Cette section du blog concerne le roman <a href="/article/cloaca-maxima">Cloaca Maxima</a>, en cours d'édition et de publication [<strong>publié en 2019</strong>. NdR] aux éditions Encres de Siagne.
 ---
 
-(page pour mettre la présentation générale du roman — contiendra tous les liens vers les autres articles)
+Cette section du blog concerne le roman {% exergue Cloaca Maxima %}, en cours d'édition et de publication [publié en 2019. NdR] aux éditions Encres de Siagne.

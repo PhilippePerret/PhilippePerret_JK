@@ -1,14 +1,14 @@
 ---
 titre: L’Histoire du cinéma tue l’histoire du cinéma
 category: films
-at: 27 novembre 2018
-date: 2018-11-27
+at: 14 juillet 2018
+date: 2018-07-14
 layout: article
 photo: histoire-cinema-tue-cinema.jpg
 dossier_images: "articles/films"
 permalink: /article/histoire-cinema-tue-cinema
 ---
-C’est un triste constat : la quantité de films et de séries produits aujourd’hui rend impossible non seulement de voir tout ce qui se fait mais encore moins de voir et revoir ce que l’industrie du cinéma a produit d’important jusqu’à ce jour. Tant de chefs d’œuvre qui n’existent plus dans la culture populaire qu’à l’état de titre. On connait peut-être, dans les jeunes générations, la locution « Citizen Kane », mais qui parmi elles l’ont vu ? Qui parmi elles ont visionné UN TRAMWAY NOMMÉ DÉSIR, AUTANT EN EMPORTE LE VENT ou les films d’Akira Kurosama ?
+C’est un triste constat : la quantité de films et de séries produits aujourd’hui rend impossible non seulement de voir tout ce qui se fait mais encore moins de voir et revoir ce que l’industrie du cinéma a produit d’important jusqu’à ce jour. Tant de chefs d’œuvre qui n’existent plus dans la culture populaire qu’à l’état de titre. On connait peut-être, dans les jeunes générations, la locution « Citizen Kane », mais qui parmi elles l’ont vu ? Qui parmi elles ont visionné UN TRAMWAY NOMMÉ DÉSIR, AUTANT EN EMPORTE LE VENT ou les films d’Akira Kurosama ?
 
 Auparavant, en littérature ou en cinéma, le peu d’objets produits autorisait le voir et le revoir, permettait d’entretenir le vivier d’œuvres qui chaque année s’augmentait de quelques rares chefs d’œuvre, essentiels. Ils fabriquaient l’histoire patiemment, et cette histoire pouvait être entretenue, être vivante. L’histoire du cinéma existe encore, mais qui l’entretient aujourd’hui ?
 

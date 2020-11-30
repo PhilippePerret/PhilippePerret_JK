@@ -3,5 +3,5 @@ layout: default
 permalink: /articles_etats_dame
 ---
 {% include nav_categories_articles.html %}
-{%- assign listing = site.articles | where:'category','etats_dame' -%}
+{%- assign listing = site.articles | where:'category','etats_dame' | sort: 'date' | reverse -%}
 {%- for article in listing -%}{% include article.html %}{%- endfor -%}

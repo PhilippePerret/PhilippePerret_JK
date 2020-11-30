@@ -34,14 +34,13 @@ urls:
   profil_amazon: https://www.amazon.fr/Philippe-Perret/e/B004MT18YW
 
 # Liens fixes (pour les autres, voir _data/liens.yml)
+# {% site.liens.revenir %}
 liens:
   revenir: >
-    <div class="right">
-      <a href="javascript:history.back()">↩︎ Revenir</a>
-    </div>
-# Build settings
-# theme: minima
-# plugins:
+    <div class="right"><a href="javascript:history.back()">↩︎ Revenir</a></div>
+
+plugins:
+  - jekyll-feed
 
 collections:
   pages:
@@ -52,6 +51,14 @@ collections:
 sass:
   sass_dir: _sass
   style: compressed
+
+# RSS
+feed:
+  author: Philippe “Phil” Perret
+  url: https://www.philippeperret.fr
+  collections:
+    - pages
+    - articles
 
 # Exclude from processing.
 # The following items will not be processed, by default.
